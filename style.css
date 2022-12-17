@@ -8,72 +8,68 @@
 
 @font-face {
     font-family: font1;
-    src: url(../neon-custom/font/font1.otf);
+    src: url("font/font1.otf");
 }
 
-@font-face {
-    font-family: font1;
-    src: url(../neon-custom/font/font1.otf);
-}
 
 @font-face {
     font-family: font2;
-    src: url(../neon-custom/font/font2.otf);
+    src: url("font/font2.otf");
 }
 
 @font-face {
     font-family: font3;
-    src: url(../neon-custom/font/font3.ttf);
+    src: url("font/font3.ttf");
 }
 
 @font-face {
     font-family: font4;
-    src: url(../neon-custom/font/font4.ttf);
+    src: url("font/font4.ttf");
 }
 
 @font-face {
     font-family: font5;
-    src: url(../neon-custom/font/font5.ttf);
+    src: url("font/font5.otf");
 }
 
 @font-face {
     font-family: font6;
-    src: url(../neon-custom/font/font6.ttf);
+    src: url("font/font6.ttf");
 }
 
 @font-face {
     font-family: font7;
-    src: url(../neon-custom/font/font7.otf);
+    src: url("font/font7.otf");
 }
 
 @font-face {
     font-family: font8;
-    src: url(../neon-custom/font/font8.otf);
+    src: url("font/font8.otf");
 }
 
 @font-face {
     font-family: font9;
-    src: url(../neon-custom/font/font9.otf);
+    src: url("font/font9.otf");
 }
 
 @font-face {
     font-family: font10;
-    src: url(../neon-custom/font/font10.ttf);
+    src: url("font/font10.ttf");
 }
 
 @font-face {
     font-family: font11;
-    src: url(../neon-custom/font/font11.TTF);
+    src: url("font/font11.ttf");
 }
 
 @font-face {
     font-family: font12;
-    src: url(../neon-custom/font/font12.otf);
+    src: url("font/font12.otf");
 }
 
 @font-face {
     font-family: font13;
-    src: url(../neon-custom/font/font-main.otf);
+    src: url("font/font-main.otf");
 }
 
 body {
@@ -112,7 +108,7 @@ html {
 .flex-inner1 {
     width: 49%;
     height: 800px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../neon-custom/pexels-moose-photos-1040824.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("pexels-moose-photos-1040824.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -129,13 +125,13 @@ html {
     text-shadow: 0 0 7px #fff,
         0 0 10px #fff,
         0 0 21px #fff;
-    margin-top: 5rem;
+ padding-top: 5rem;
     font-family: font8;
 }
 
 .flex-inner1 h6 {
     font-size: 2rem;
-    margin-bottom: 5rem;
+    padding-bottom: 5rem;
     font-family: font2;
     color: #f35626;
 	background-image: -webkit-linear-gradient(90deg, #f35626, #feab3a);
